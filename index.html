@@ -13,10 +13,9 @@
   <link rel="stylesheet" href="style1.css">
   <link rel="stylesheet" href="style2.css">
   <link rel="stylesheet" href="style3.css">
-  <link rel="stylesheet" href="horizontal.css">
 
 </head>
-<body style="font-family: 'Alegreya', sans-serif; font-size: 15px;">
+<body style="font-family: 'Alegreya', sans-serif; font-size: 15px;background-image: linear-gradient(-70deg, #e9defa 0%, #fbfcdb 100%);"> 
 
 <nav class="navbar navbar-default navbar-fixed-top scrolling-navbar" style="background-color: white;">
   <div class="container">
@@ -43,32 +42,32 @@
 
 <br><br><br><br>
 
-<nav class="navbar navbar-expand-lg navbar-default" style="background-color: white;border: 1px white;">
+<nav class="navbar navbar-expand-xl navbar-default" style="background-color: transparent;border: 1px white;">
 <div class="container" style="border-radius: 10px;">
 
 <div class="row">
 
                     
-                      <div class="col-xs-12 col-sm-6 col-md-6 navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar1" style="margin-top: 15px;align-self: right;border-color: #4d94ff;">
+                      <div class="col-xs-12 col-sm-12 col-md-6 navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar1" style="margin-top: 15px;align-self: right; border: 2px solid #4d94ff;">
         <img src="monitor1.png">                        
-      </button>  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar1" style="margin-top: 15px;border-color: #4d94ff;">
+      </button>  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar1" style="margin-top: 15px; border: 2px solid #4d94ff;">
        <img src="pricing1.png">                       
       </button>
                           <h2 style="color: grey;"><img src="portfolio.png" alt="logo">&nbsp;My Portfolio</h2>
                         
                         </div>
                         
-                        <div class="col-xs-12 col-sm-6 col-md-6 collapse navbar-collapse" id="myNavbar1" style="margin-top: 30px;text-align: right;margin-left: 70px;">  
-                          <ul class="nav navbar-nav">  
-                         <li> <a class="navbar-brand" href="#" style="padding: 10px;border-radius: 8px;font-size: 18px;height: 15px;background-image: url(pricing1.png);background-repeat: no-repeat;">
-                            	<p style="margin-left: 20px;margin-top: -10px;color: #4d94ff;border: 1px solid #4d94ff;border-radius: 5px;">
+                        <div class="col-xs-12 col-sm-6 col-md-6 collapse navbar-collapse" id="myNavbar1" style="margin-top: 30px;margin-left: 90px;">  
+                          <ul class="nav navbar-nav" style="margin-left: 20px;">  
+                         <li> <a class="navbar-brand" href="#" style="border-radius: 8px;font-size: 18px;height: 15px;background-image: url(pricing1.png);background-repeat: no-repeat;padding: 10px;">
+                            	<p style="margin-left: 20px;margin-top: -10px;color: #4d94ff;border: 2px solid #005ce6;border-radius: 5px;">
                               Price Calculator</p>
                             </a></li>
                             
-                            &nbsp;&nbsp;&nbsp;
-                          <li>  <a class="navbar-brand" href="#" style="padding: 10px;border-radius: 8px;font-size: 18px;height: 15px;background-image: url(monitor1.png);background-repeat: no-repeat;">
-                              <p style="margin-left: 20px;margin-top: -10px;color: #4d94ff;border: 1px solid #4d94ff;border-radius: 5px;">Crop Monitoring</p>
+                            &nbsp;&nbsp;&emsp;&emsp;
+                          <li>  <a class="navbar-brand" href="#" style="padding: 10px;border-radius: 8px;font-size: 18px;height: 15px;background-image: url(monitor1.png);background-repeat: no-repeat;margin-left: 10px;">
+                              <p style="margin-left: 20px;margin-top: -10px;color: #4d94ff;border: 2px solid #005ce6;border-radius: 5px;">Crop Monitoring</p>
                             </a>
                         </li></ul>
                         </div>
@@ -153,24 +152,146 @@
 </div>
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12 col-lg-12" style="background-color:#f2f2f2;border-radius: 15px;">
+		<div class="col-xs-12 col-lg-12" style="background-color:white;border-radius: 15px;">
 			<h3 style="color: grey;">Portfolio</h3>
-			<h4 style="text-align: right; margin-top: -34px;color: grey;">Sum Insured Report(in INR Million)</h4>
+			<h4 style="text-align: right; margin-top: -30px;color: grey;">Sum Insured Report(in INR Million)</h4>
 		</div>
 	</div>
 </div>
 
- <script src="js/jquery.min.js"></script>
-	<script src="js/utils.js"></script>
+<br>
 
- <script src="js/Chart.bundle.js"></script>
-    <script src="js/Chart.min.js"></script>
-    <script  src="js/Chart.extensions.js"></script>
-<script src="js/bar.js"></script>
-<script src="js/index4.js"></script>
-  <script src="js/index3.js"></script>
-   <script  src="js/index2.js"></script>
-  <script  src="js/index1.js"></script> 
+
+  <div class="container" style="border: 1px solid lightgrey; border-radius: 15px;">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="border-radius: 15px;">
+          <div class="table-responsive">
+            <div class="panel-default panel-table">
+              <div class="panel-body">
+                <table class="table table-list">
+                  <thead>
+                    <tr>
+                        <th>DISTRICT</th>
+                        <th>Risk Conditions</th>
+                        <th>Maize</th>
+                        <th>Paddy</th>
+                        <th>Guar</th>
+                        <th>Groundnut</th>
+                        <th>Bajra</th>
+                        <th>Soyabean</th>
+                        <th style="color: #4d94ff;"> Total Value </th>                   
+                     </tr> 
+                  </thead>
+                  <tbody>
+                          <tr style="text-align: center;">
+                            <td>ALIGARH</td>
+                            <td>
+                              <span class="dot1"></span>
+                            </td>
+                            <td>2,000</td>
+                            <td>0</td>
+                            <td>1,250</td>
+                            <td>980</td>
+                            <td>2,500</td>
+                            <td>1,235</td>
+                            <td style="color: #4d94ff;">7,965</td>
+                          </tr>
+ 
+                          <tr style="text-align: center;">
+                            <td>BADAUN</td>
+                            <td>
+                              <span class="dot3"></span>
+                            </td>
+                            <td> - </td>
+                            <td> 3,000 </td>
+                            <td>2,900 </td>
+                            <td> 0 </td>
+                            <td> 745 </td>
+                            <td> - </td>
+                            <td style="color: #4d94ff;">8,188</td>
+                          </tr>
+
+                          <tr style="text-align: center;">
+                            <td>BARA BANKI</td>
+                            <td><span class="dot1"></span></td>
+                            <td> - </td>
+                            <td>2,000 </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td style="color: #4d94ff;">2,000 </td>
+                          </tr>
+
+                          <tr style="text-align: center;">
+                            <td>BULANDSHAHR</td>
+                            <td><span class="dot"></span></td>
+                            <td> - </td>
+                            <td> 1,700 </td>
+                            <td> 2,000 </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td style="color: #4d94ff;">3,700</td>
+                          </tr>
+                           
+                           <tr style="text-align: center;">
+                            <td>FAIZABAD</td>
+                            <td><span class="dot"></span></td>
+                            <td> - </td>
+                            <td> 3,200 </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td style="color: #4d94ff;">3,200</td>
+                          </tr>
+
+                          <tr style="text-align: center;">
+                            <td>GONDA</td>
+                            <td><span class="dot2"></span></td>
+                            <td> - </td>
+                            <td>799</td>
+                            <td> - </td>
+                            <td> 2,000 </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td style="color: #4d94ff;">2,799</td>
+                          </tr>
+
+                          <tr style="text-align: center;">
+                            <td>GORAKHPUR</td>
+                            <td><span class="dot2"></span></td>
+                            <td> - </td>
+                            <td> 1,230 </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td> - </td>
+                            <td style="color: #4d94ff;">1,230</td>
+                          </tr>
+                        </tbody>
+                        
+                </table>
+            
+              </div>
+              <div style="text-align: center; border-top: 1px solid lightgrey;margin-top: -14px;">
+                <br>
+                <span class="dot6"> <a style="color: black;margin-left: 15px;"> High </a></span> &emsp;&emsp;&emsp;&emsp;&emsp;
+                <span class="dot4">  <a style="color: black;margin-left: 15px;"> Moderate </a> </span>&emsp;&emsp;&emsp;&emsp;&emsp;
+                <span class="dot7"> <a style="color: black;margin-left: 15px;"> Low </a> </span>&emsp;&emsp;&emsp;&emsp;&emsp;
+                <span class="dot5"> <a style="color: black;margin-left: 15px;">  No </a> </span>
+                <br>
+              </div>
+            </div>
+</div>
+</div></div>
+</div>
+
+<br>
+
+ <script src="js/jquery.min.js"></script>
+	
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
